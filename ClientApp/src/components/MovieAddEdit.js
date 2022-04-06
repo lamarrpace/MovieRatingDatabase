@@ -83,7 +83,6 @@ export const AddUpdateMovie = ({
             </div>
             <div className="row">
               <div className="form-group col-md-7">
-                {/* <button type="button" onClick={uploadImage}>Add image</button> */}
                 <label>Image:</label>
                 <input type="file" name="imgPath" onChange={onSaveImage} />
               </div>
@@ -101,7 +100,7 @@ export const AddUpdateMovie = ({
                   max="10"
                 />
               </div>
-              <img src={image} className="form-group col-md-7" />
+              {/* <img src={image} className="form-group col-md-7" /> */}
             </div>
             <div className="row">
               <div className="form-group col-md-12">

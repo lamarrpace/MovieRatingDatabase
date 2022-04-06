@@ -3,8 +3,6 @@ import React, { useEffect, useState } from "react";
 const imgagesPath = require.context("../../public/images", true);
 
 export const MovieList = ({ AllMovies, SelectMovie }) => {
-  const [isHover, setIsHover] = useState(false);
-
   if (AllMovies.length === 0) {
     return <div />;
   }
@@ -12,12 +10,7 @@ export const MovieList = ({ AllMovies, SelectMovie }) => {
   return (
     <div>
       {AllMovies.map((movie) => (
-        <div
-          className="container mrgn-tb"
-          style={{ backgroundColor: isHover ? "highlight" : "transparent" }}
-          onMouseEnter={() => setIsHover(true)}
-          onMouseLeave={() => setIsHover(false)}
-        >
+        <div>
           <h6> {movie["title"]} </h6>
           <form>
             <div className="row">
