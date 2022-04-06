@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WEjfNN5CpPkKS42qP09YdnRmHgPQoT7ZWAlFjL91V4L8KP5juNUhRws8aAnURL5Bm3HqjdJ+ZO6QsRZJuxKGEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lamar\\vsCodeProjects\\congaDemoApp\\congaDemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lamar\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.11\\microsoft.aspnetcore.spaservices.extensions.5.0.11.nupkg.sha512",
+    "C:\\Users\\lamar\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\lamar\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\lamar\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\lamar\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
